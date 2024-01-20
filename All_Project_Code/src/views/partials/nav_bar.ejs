@@ -1,0 +1,63 @@
+<div class="navbar">
+            
+    <a style="padding-left: 30px;" href="/homepage"><img src = "../../resources/img/Logo.png" alt="InstaList Logo" height="60"> </a>
+    
+    <!-- Homepage -->
+    <% if (my_title == 'Homepage') { %>
+        <a style="padding-top: 39px; padding-left: 30px; color: black;" href="/homepage">Home</a>
+    <% } else{ %>
+        <a style="padding-top: 39px; padding-left: 30px;" href="homepage">Home</a>
+    <% } %>
+
+    <!-- Grocery list -->
+    <% if (my_title == 'Grocery List') { %>
+        <a style="padding-top: 39px; color: black;" href="/grocery_list">Grocery List</a>
+    <% } else{ %>
+        <a style="padding-top: 39px;" href="/grocery_list">Grocery List</a>
+    <% } %>
+
+    <!-- Recipe List -->
+    <% if (my_title == 'Recipe List') { %>
+        <a style="padding-top: 39px; color: black;" href="/recipe_list">Recipe List</a>
+    <% } else{ %>
+        <a style="padding-top: 39px;" href="/recipe_list">Recipe List</a>
+    <% } %>
+    
+    <!-- Help Tab -->
+    <% if ((my_title == 'Help Tab')|| (my_title == 'FAQ') || (my_title == 'Contact Support') || (my_title == 'Guide') || (my_title == 'About Us') || (my_title == 'Thank you' ) )  { %>
+        <a style="padding-top: 39px; color: black;" href="/help_tab">Help</a>
+    <% } else{ %>
+        <a style="padding-top: 39px;" href="/help_tab">Help</a>
+    <% } %>
+
+    <!-- Profile -->
+    <% if ((my_title == 'Profile') || (my_title == 'Edit Profile')) { %>
+
+        <div style="padding-top: 39px;" class="dropdown">
+            <button class="dropbtn">Profile
+              <i class="fa fa-caret-down"></i>
+            </button>
+          
+            <div class="dropdown-content">
+              <a href="/profile">Profile</a>
+              <a style="align-items: center;" href="/logout">Sign Out</a>
+            
+            </div>
+        
+          </div>
+    <% } else{ %>
+          <div style="padding-top: 39px;" class="dropdown">
+            <button class="dropbtn">Profile
+              <i class="fa fa-caret-down"></i>
+            </button>
+          
+            <div class="dropdown-content">
+              <a href="/profile">Profile</a>
+              <a style="align-items: center;" href="/logout">Sign Out</a>
+            
+            </div>
+        
+          </div>
+    <% } %>
+      
+</div>

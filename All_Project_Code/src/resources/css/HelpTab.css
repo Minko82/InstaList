@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Fonts*/
+@font-face{
+  font-family: "Robot";
+  src: url(../Fonts/Roboto-Regular.ttf);
+
+}
+
+h3{
+  font-family: 'Robot';
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Robot';
+  
+}
+/*Fonts*/
+
+/*NAV BAR*/
+
+.navbar a:hover,.dropdown:hover .dropbtn   {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a {
+
+  width: 16.66%;
+  display: inline-block;
+
+  column-gap: 10px;
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 30px;
+  font-family: 'Comfortaa';
+
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Comfortaa';
+  margin: 0;
+}
+
+.dropdown-content {
+
+  display: none;
+  overflow: auto;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown-content a {
+  white-space: nowrap;
+  display:block;
+  float: none;
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  color: #88BBAF;
+}
+
+/*NAV BAR*/
+
+
+/* Style the  cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center;
+  background-color: #A6D2CA;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
+  gap: 30px; 
+  padding: 10px;
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.center-cards {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* Style the  cards */

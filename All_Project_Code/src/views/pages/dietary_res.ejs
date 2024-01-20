@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dietary Restrictions</title>
+    <link rel="icon" href="../images/tab_icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="../../resources/js/Sign_Up.js"></script>
+    <link rel="stylesheet" href="../../resources/css/Dietary_Res.css">
+</head>
+
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover">
+
+    <div class="glist-header">
+
+        <h2 style="margin: 10px;">Dietary Restrictions</h2>
+    </div>
+    <div class="container" style="margin-top:10px"><br>
+        <form class="box" action="dietary_res" method="post" style="width:50%;margin-top:200px;text-align:left;">
+            <input name = "userid" type="hidden" id="userid" value= <%- user_id %>>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Dairy">
+                    </div>
+                    <div class="col-8">
+                        Dairy
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Gluten">
+                    </div>
+                    <div class="col-8">
+                        Gluten
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Vegitarian">
+                    </div>
+                    <div class="col-8">
+                        Vegitarian
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Vegan">
+                    </div>
+                    <div class="col-8">
+                        Vegan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Pescatarian">
+                    </div>
+                    <div class="col-8">
+                        Pescatarian
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Peanuts">
+                    </div>
+                    <div class="col-8">
+                        Peanuts
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Soy">
+                    </div>
+                    <div class="col-8">
+                        Soy
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Tree Nuts">
+                    </div>
+                    <div class="col-8">
+                        Tree Nuts
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Shellfish">
+                    </div>
+                    <div class="col-8">
+                        Shellfish
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" name="Dietary_Restrictions" value="Sesame">
+                    </div>
+                    <div class="col-8">
+                        Sesame
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" name="" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="icon" href="../../resources/img/tab_icon.png">
+
+
+    <link rel="stylesheet" href="../../resources/css/login.css">
+    <script src="../../resources/js/login.js"></script>
+</head>
+
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover">
+
+    <div class="container"><br>
+
+        <div class="logo">
+            <img src="../../resources/img/Logo.png" alt="" width="150" height="72" class="center">
+        </div>
+        <form class="box" action="auth" method="post">
+            <h1>Returning Users</h1>
+            <input type="text" name="username" placeholder="Username:" id="username" required="required">
+            <input type="password" name="password" placeholder="Password:" id="password" required="required">
+
+
+            <% if(error) { %>
+                <div>
+                    <p>Invalid Username or Password</p>
+                </div>
+                <% } %>
+
+                        <input type="submit" name="" value="Sign In">
+                        <div class="text-center p-t-12">
+                            <a class="txt2" href="/sign_up">
+                                Make New Account
+                            </a>
+                        </div>
+        </form>
+    </div>
+</body>

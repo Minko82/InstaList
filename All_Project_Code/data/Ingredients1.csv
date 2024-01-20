@@ -1,0 +1,296 @@
+id,name,allergen,category
+1,Alaska pollock,,Meat/Seafood
+2,Albacore,,Meat/Seafood
+3,American lobster,Shellfish,Meat/Seafood
+4,Anchovy,,Meat/Seafood
+5,Anchovy filets,,Meat/Seafood
+6,Angus beef,Meat,Meat/Seafood
+7,Argentine shortfin squid,Shellfish,Meat/Seafood
+8,Atlantic cod,,Meat/Seafood
+9,Atlantic herring,,Meat/Seafood
+10,Atlantic mackerel,,Meat/Seafood
+11,Atlantic salmon,,Meat/Seafood
+12,Beef,Meat,Meat/Seafood
+13,Beef casing,Meat,Meat/Seafood
+14,Beef fat,Meat,Meat/Seafood
+15,Beef heart,Meat,Meat/Seafood
+16,Beef meat,Meat,Meat/Seafood
+17,Boiled egg,Eggs,Meat/Seafood
+18,Calf rennet,Meat,Meat/Seafood
+19,Caribbean spiny lobster,Shellfish,Meat/Seafood
+20,Chicken,Meat,Meat/Seafood
+21,Chicken breast,Meat,Meat/Seafood
+22,Chicken fat,Meat,Meat/Seafood
+23,Chicken liver,Meat,Meat/Seafood
+24,Chicken meat,Meat,Meat/Seafood
+25,Chicken thigh,Meat,Meat/Seafood
+26,Cod,,Meat/Seafood
+27,Cod liver,,Meat/Seafood
+28,Cooked beef meat,Meat,Meat/Seafood
+29,Coppa,Meat,Meat/Seafood
+30,Crustacean,Shellfish,Meat/Seafood
+31,Deep-sea shrimp,Shellfish,Meat/Seafood
+32,Duck,Meat,Meat/Seafood
+33,Duck fat,Meat,Meat/Seafood
+34,Duck foie gras,Meat,Meat/Seafood
+35,Duck gizzard,Meat,Meat/Seafood
+36,Duck liver,Meat,Meat/Seafood
+37,Duck meat,Meat,Meat/Seafood
+38,Fat,,Meat/Seafood
+39,Fish,,Meat/Seafood
+40,Hake,,Meat/Seafood
+41,Herring,,Meat/Seafood
+42,Herring fillet,,Meat/Seafood
+43,Horse,Meat,Meat/Seafood
+44,Horse meat,Meat,Meat/Seafood
+45,Humboldt squid,Shellfish,Meat/Seafood
+46,Lamb,Meat,Meat/Seafood
+47,Lamb meat,Meat,Meat/Seafood
+48,Lard,Meat,Meat/Seafood
+49,Lardon,Meat,Meat/Seafood
+50,Lean duck liver,Meat,Meat/Seafood
+51,Liver,Meat,Meat/Seafood
+52,Lobster,Shellfish,Meat/Seafood
+53,Mackerel,,Meat/Seafood
+54,Mackerel fillet,,Meat/Seafood
+55,Meat,Meat,Meat/Seafood
+56,Meat patty,Meat,Meat/Seafood
+57,Mollusc,Shellfish,Meat/Seafood
+58,Norway lobster,Shellfish,Meat/Seafood
+59,Pink salmon,,Meat/Seafood
+60,Pork,Meat,Meat/Seafood
+61,Pork belly,Meat,Meat/Seafood
+62,Pork breast,Meat,Meat/Seafood
+63,Pork fat,Meat,Meat/Seafood
+64,Pork fillet,Meat,Meat/Seafood
+65,Pork liver,Meat,Meat/Seafood
+66,Pork loin,Meat,Meat/Seafood
+67,Pork meat,Meat,Meat/Seafood
+68,Pork rind,Meat,Meat/Seafood
+69,Pork sausage,Meat,Meat/Seafood
+70,Pork shoulder,Meat,Meat/Seafood
+71,Poultry,Meat,Meat/Seafood
+72,Poultry fat,Meat,Meat/Seafood
+73,Poultry liver,Meat,Meat/Seafood
+74,Poultry meat,Meat,Meat/Seafood
+75,Quail,Meat,Meat/Seafood
+76,Rabbit,Meat,Meat/Seafood
+77,Rabbit meat,Meat,Meat/Seafood
+78,Raw ham,Meat,Meat/Seafood
+79,Roast chicken,Meat,Meat/Seafood
+80,Salami,Meat,Meat/Seafood
+81,Salmon,,Meat/Seafood
+82,Sardine,,Meat/Seafood
+83,Scallop,Shellfish,Meat/Seafood
+84,Sheep,Meat,Meat/Seafood
+85,Shellfish,Shellfish,Meat/Seafood
+86,Shrimp,Shellfish,Meat/Seafood
+87,Skipjack tuna,,Meat/Seafood
+88,Smoked bacon,Meat,Meat/Seafood
+89,Smoked cooked lardoons,Meat,Meat/Seafood
+90,Smoked cured ham,Meat,Meat/Seafood
+91,Smoked lardoons,Meat,Meat/Seafood
+92,Smoked sausage,Meat,Meat/Seafood
+93,Snail,Shellfish,Meat/Seafood
+94,Squid,Shellfish,Meat/Seafood
+95,Superior cooked ham,Meat,Meat/Seafood
+96,Surimi,,Meat/Seafood
+97,free-range chicken,Meat,Meat/Seafood
+98,Tuna,,Meat/Seafood
+99,Turkey,Meat,Meat/Seafood
+100,Turkey breast,Meat,Meat/Seafood
+101,Turkey meat,Meat,Meat/Seafood
+102,Veal,Meat,Meat/Seafood
+103,Veal fond,Meat,Meat/Seafood
+104,Veal meat,Meat,Meat/Seafood
+105,Acacia fibre,,Produce
+106,Acacia honey,,Produce
+107,Acerola,,Produce
+108,Acerola juice,,Produce
+109,Acerola powder,,Produce
+110,Aloe vera,,Produce
+111,Aloe vera juice,,Produce
+112,Ananas flavouring,,Produce
+113,Aniseed,,Produce
+114,Apple,Citrus,Produce
+115,Apple extract,Citrus,Produce
+116,Apple fiber,Citrus,Produce
+117,Apple flavouring,Citrus,Produce
+118,Apricot,Citrus,Produce
+119,Artichoke,,Produce
+120,Asparagus,,Produce
+121,Aubergine,,Produce
+122,Baby spinach,,Produce
+123,Bamboo,,Produce
+124,Bamboo fibre,,Produce
+125,Bamboo shoot,,Produce
+126,Banana,,Produce
+127,Banana flavouring,,Produce
+128,Basil,,Produce
+129,Bay leaf,,Produce
+130,Beans,,Produce
+131,Beet sugar,,Produce
+132,Beetroot,,Produce
+133,Beetroot juice,,Produce
+134,Beetroot juice concentrate,,Produce
+135,Bell pepper,,Produce
+136,Bergamot orange flavouring,,Produce
+137,Berries,,Produce
+138,Black carrot,,Produce
+139,Black carrot juice,,Produce
+140,Black olive,,Produce
+141,Black radish,,Produce
+142,Blackberry,,Produce
+143,Blackcurrant,,Produce
+144,Blueberry,,Produce
+145,Broccoli,,Produce
+146,Cabbage,,Produce
+147,Caraway,,Produce
+148,Carrot,,Produce
+149,Carrot extract,,Produce
+150,Cauliflower,,Produce
+151,Celery,,Produce
+152,Celery leaves,,Produce
+153,Cep,,Produce
+154,Chard,,Produce
+155,Cherry,,Produce
+156,Cherry tomato,,Produce
+157,Chickpea,,Produce
+158,Chicory,,Produce
+159,Chicory root,,Produce
+160,Chili pepper,,Produce
+161,Chili puree,,Produce
+162,Chinese hibiscus,,Produce
+163,Chives,,Produce
+164,Chokeberry,,Produce
+165,Chokeberry juice,,Produce
+166,Chopped tomatoes,,Produce
+167,Citrus fruit,Citrus,Produce
+168,Citrus fruit extract,Citrus,Produce
+169,Clementine,Citrus,Produce
+170,Clove,,Produce
+171,Coconut,,Produce
+172,Corn,,Produce
+173,Courgette,,Produce
+174,Cranberry,,Produce
+175,Cucumber,,Produce
+176,Date,,Produce
+177,Dill,,Produce
+178,Elderberry,,Produce
+179,Elderberry extract,,Produce
+180,Elderflower,,Produce
+181,Espelette chili pepper,,Produce
+182,Extra-fine green beans,,Produce
+183,Fennel,,Produce
+184,Fenugreek,,Produce
+185,Fenugreek leaf,,Produce
+186,Forest mushroom,,Produce
+187,Garden peas,,Produce
+188,Garlic,,Produce
+189,Gherkin,,Produce
+190,Ginger,,Produce
+191,Ginseng,,Produce
+192,Grape,,Produce
+193,Grapefruit,Citrus,Produce
+194,Green asparagus,,Produce
+195,Green bean,,Produce
+196,Green bell pepper,,Produce
+197,Green chili pepper,,Produce
+198,Green olives,,Produce
+199,Green peas,,Produce
+200,Green pepper,,Produce
+201,Guava,,Produce
+202,Habanero chili,,Produce
+203,Hot chili peppers,,Produce
+204,Jalapeno,,Produce
+205,Juniper,,Produce
+206,Juniper berry,,Produce
+207,Kiwi,,Produce
+208,Leek,,Produce
+209,Lemon,Citrus,Produce
+210,Lemon juice,Citrus,Produce
+211,Lemon juice concentrate,Citrus,Produce
+212,Lemongrass,,Produce
+213,Lettuce,,Produce
+214,Lime,Citrus,Produce
+215,Lime juice,Citrus,Produce
+216,Lime juice concentrate,Citrus,Produce
+217,Lovage,,Produce
+218,Lovage leaves,,Produce
+219,Lychee,Citrus,Produce
+220,Mandarin,Citrus,Produce
+221,Mango,,Produce
+222,Melon,,Produce
+223,Mint,,Produce
+224,Mint leaf,,Produce
+225,Morels,,Produce
+226,Mushroom,,Produce
+227,Nectarine,,Produce
+228,Onion,,Produce
+229,Orange,Citrus,Produce
+230,Organic tomato,,Produce
+231,Passionfruit,Citrus,Produce
+232,Pea,,Produce
+233,Peach,,Produce
+234,Pear,,Produce
+235,Pepper,,Produce
+236,Peppermint,,Produce
+237,Pholiota,,Produce
+238,Pineapple,,Produce
+239,Plant,,Produce
+240,Plantain,,Produce
+241,Plum,,Produce
+242,Potato,,Produce
+243,Prune,,Produce
+244,Prunes from Agen,,Produce
+245,Pumpkin,,Produce
+246,Radish,,Produce
+247,Raisin,,Produce
+248,Raspberry,,Produce
+249,Red and yellow peppers,,Produce
+250,Red apple,,Produce
+251,Red beetroot,,Produce
+252,Red bell pepper,,Produce
+253,Red cabbage,,Produce
+254,Red chili pepper,,Produce
+255,Red fruits,,Produce
+256,Red onion,,Produce
+257,Ribwort plantain,,Produce
+258,Rooibos,,Produce
+259,Root vegetable,,Produce
+260,Roscoff onions,,Produce
+261,Rosemary,,Produce
+262,Sage,,Produce
+263,Shallot,,Produce
+264,Shiitake,,Produce
+265,Small white onions,,Produce
+266,Sorrel,,Produce
+267,Sour cherry,,Produce
+268,Soya,,Produce
+269,Soya bean,,Produce
+270,Spinach,,Produce
+271,Split pea,,Produce
+272,Spring onion,,Produce
+273,Strawberry,,Produce
+274,Sugarcane,,Produce
+275,Sunflower,,Produce
+276,Sweet cherry,,Produce
+277,Sweet potato,,Produce
+278,Sweetcorn,,Produce
+279,Syrah,,Produce
+280,Thyme,,Produce
+281,Tomato,,Produce
+282,Turnip,,Produce
+283,Vegetable,,Produce
+284,Vegetable blend,,Produce
+285,Watermelon,,Produce
+286,Wax bean,,Produce
+287,White asparagus,,Produce
+288,White cabbage,,Produce
+289,White grape,,Produce
+290,White pepper,,Produce
+291,White seedless grape,,Produce
+292,Wild garlic,,Produce
+293,Yellow corn,,Produce
+294,Yellow onion,,Produce
+295,Zante currant,,Produce

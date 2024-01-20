@@ -1,0 +1,9 @@
+.parallax {
+    background-image: url(../../resources/img/backg.png);
+
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

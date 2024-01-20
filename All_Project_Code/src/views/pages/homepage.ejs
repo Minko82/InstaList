@@ -1,0 +1,65 @@
+<head>
+  <title>Homepage</title>
+   <link rel="icon" href="../../resources/img/tab_icon.png" >
+
+   <script src="https://kit.fontawesome.com/89f6976e69.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+   <link href="../../resources/css/HelpTab.css" rel='stylesheet'>
+   <link href='../../resources/css/parallax.css' rel='stylesheet'>
+   <link rel="stylesheet" href="../../resources/css/homepage.css">
+
+   <script src="../../resources/js/homepage.js"></script>
+   
+</head>
+
+<!--Background Color -->
+<div class="parallax">
+<body style = "background-color: #88BBAF;">
+
+   
+<body>
+<%- include('../partials/nav_bar') %>
+        
+ <div class="container">
+   <div class="row" style="height:20px"></div>
+   <div class="row justify-content-center">
+      <div class="col-8">
+          <div class="input-group rounded">
+              <input type="text" id="userInput" class="form-control rounded homebar" placeholder="Search Recipes..."  aria-label="Search" aria-describedby="search-addon"></input>
+            </div>
+      </div>
+      <div class="col-4">
+        
+          <button type="button" class="button rounded searchbtn" onclick="getRecipeData()">
+            <div class="row justify-content-center">
+              
+              <div class="col">
+                <p class="btnTxt">Search</p>
+              </div>
+            
+            <!-- Image on search button -->
+              <div class="col">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+                  <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                  <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+                </svg>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+   </div>
+
+   <!-- Search Results Container -->
+   <div class="container justify-content-center">
+    <div class="row" id="searchResults"></div>
+  </div>
+
+  <br><br>
+  <center><button type="button" class="rounded loadBtn" onclick="loadMore()">Load More Results</button></center>
+  
+</div>
+</body>
+<footer><br><br></footer>
+</div>

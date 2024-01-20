@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body{
+    height: 100vh;
+    background: url(../images/backg.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  .profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto; /* Added */
+    margin-top: 3%;
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+  }
+  
+  .card-header{
+    background: #A6D2CA;
+    padding: 60px 40px;
+  }
+  
+  .pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e9bebe);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+  }
+  
+  @keyframes animated-gradient{
+    25%{
+      background-position: left bottom;
+    }
+    50%{
+      background-position: right bottom;
+    }
+    75%{
+      background-position: right top;
+    }
+    100%{
+      background-position: left top;
+    }
+  }
+  
+  .pic img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .name{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .desc{
+    font-size: 18px;
+    color: #030303;
+  }
+  
+ 
+  .recipe-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #97ebe4;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+  }
+  
+  .recipe-btn:hover{
+    background: #dbf791;
+    color: #000000;
+  }
+  
+  .edit-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #2a9990;
+    border: 2px solid #0e463a;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+  }
+  
+  .edit-btn:hover{
+    background: #19a4a8;
+    color: #911d1d;
+  }
+  
+  .card-footer{
+    background: #f4f4f4;
+    padding: 60px 10px;
+  }
+    
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #000000;
+  }
+  
+  a:active {
+    color: #000000;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+/*Fonts*/
+@font-face{
+  font-family: "Robot";
+  src: url(../Fonts/Roboto-Regular.ttf);
+
+}
+
+h3{
+  font-family: 'Robot';
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Robot';
+  
+}
+/*Fonts*/
+
+.navbar a:hover,.dropdown:hover .dropbtn   {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a {
+
+  width: 16.66%;
+  display: inline-block;
+
+  column-gap: 10px;
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 30px;
+  font-family: 'Comfortaa';
+
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Comfortaa';
+  margin: 0;
+}
+
+.dropdown-content {
+
+  display: none;
+  overflow: auto;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown-content a {
+  white-space: nowrap;
+  display:block;
+  float: none;
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  color: #88BBAF;
+}

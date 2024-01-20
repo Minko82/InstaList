@@ -1,0 +1,40 @@
+.header {
+margin: auto;
+width: 30%;
+font-size: 30px !important; 
+text-align: center;
+vertical-align: middle;
+background-color: #e2ffff;
+padding: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.slide2 {
+clear:both;
+font-size : .9em !important;
+width:100%;
+height:0px;
+overflow: hidden;
+text-align: fill;
+transition: height .4s ease;
+}
+
+.slide3 {
+clear:both;
+font-size : 1.7em !important;
+width:100%;
+height:0px;
+overflow: hidden;
+text-align: fill;
+transition: height .4s ease;
+}
+
+.slide4 {
+clear:both;
+font-size : 1.7em !important;
+width:100%;
+height:0px;
+overflow: hidden;
+text-align: fill;
+transition: height .4s ease;
+}

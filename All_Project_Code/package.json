@@ -1,0 +1,24 @@
+{
+    "name": "node-ejs",
+    "main": "src/server.js",
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "ejs-lint": "^1.1.0",
+        "express": "^4.17.1",
+        "pg-promise": "^10.7.0",
+        "bcrypt": "^5.0.1",
+        "express-session": "^1.17.2",
+        "body-parser": "^1.20.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    }
+}

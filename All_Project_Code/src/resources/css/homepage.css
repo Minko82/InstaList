@@ -1,0 +1,197 @@
+/*Fonts (Taken from HelpTab.css)*/
+@font-face{
+    font-family: "Robot";
+    src: url(../fonts/Roboto-Regular.ttf);
+  
+  }
+  
+  h3{
+    font-family: 'Robot';
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Robot';
+    
+  }
+  /*Fonts*/
+
+/*NAV BAR (Taken from HelpTab.css)*/
+  .navbar a:hover,.dropdown:hover .dropbtn   {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar a {
+
+    width: 16.66%;
+    display: inline-block;
+
+    column-gap: 10px;
+    color: white;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 30px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Comfortaa';
+    margin: 0;
+  }
+
+  .dropdown-content {
+
+    display: none;
+    overflow: auto;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  .dropdown-content a {
+    white-space: nowrap;
+    display:block;
+    float: none;
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 20px;
+  }
+
+  .dropdown-content a:hover {
+    color: #88BBAF;
+  }
+  /*NAV BAR*/
+
+  /* TEXT BOXES */
+
+input[type="text"] {
+  background-color: #e2ffff;
+  border: 2px solid #88bbaf;
+  color: #757575;
+}
+input[type="text"]:focus{
+  background-color: #e2ffff;
+  border: 2px solid #88bbaf;
+  color: #757575;
+  outline: none;
+  box-shadow: none;
+}
+
+/* TEXT BOXES */
+  .homebar {
+    height: 75px;
+    width: 600px; 
+    font-size: 40px;
+    background-color: transparent;
+    border-color: #2ecc71;
+    border-width: 3px;
+  }
+
+  .search{
+    background-color: transparent;
+    border-color: #2ecc71;
+  }
+
+  .searchbtn {
+    background-color: #e2ffff;
+    border-color: transparent;
+    height: 75px;
+    width: 200px;
+    margin-left: 0%;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .searchbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .searchbtn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .btnTxt {
+    color:#757575;
+    font-size: 30px;
+    margin-top: 12%;
+    margin-left: 10%;
+  }
+
+  .bi-basket2 {
+    color:#757575;
+    margin-top: 38%;
+    margin-right: 15%;
+  }
+
+/* CSS below relates to formatting of search results from API */
+  .searchCard {
+    align-content: center;
+  }
+
+  .searchTXT {
+    color: white;
+    text-align: center;
+  }
+
+  .searchCol {
+    margin-top: 20px;
+  }
+
+  .toRecipeBtn {
+    background-color: #e2ffff;
+    color:#757575;
+    border-color: transparent;
+    height: 30px;
+    width: 125px;
+    margin-left: 0%;
+    box-shadow: none;
+  }
+
+  /* CSS relates to formatting of search results from API */
+
+  /* Load More Results button CSS below */
+
+  .loadBtn {
+    background-color: #e2ffff;
+    color:#757575;
+    border-color: transparent;
+    height: 35px;
+    width: 160px;
+    margin-left: 0%;
+    box-shadow: none;
+  }
+
+  .loadBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .loadBtn:focus {
+    outline: none;
+    box-shadow: none;
+  }

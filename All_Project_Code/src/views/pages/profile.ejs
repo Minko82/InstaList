@@ -1,0 +1,55 @@
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+  <title>My Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/89f6976e69.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../resources/css/profile.css">
+  <script src="../../resources/js/Sign_Up.js"></script>
+
+  <link rel="icon" href="../../resources/img/tab_icon.png" type = "image/x-icon">
+
+
+</head>
+
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover">
+  <%- include('../partials/nav_bar') %>
+
+  <div class="profile-card" id = "prof">
+
+    <div class="card-header">
+      <h1>My Profile</h1>
+      <br>
+      <div class="pic">
+        <img src="../../resources/img/pfp/<%- my_pfp %>" alt="">
+      </div>
+      <div class="name">
+        <%- my_name %> 
+
+      </div>
+      <div>
+      <a onclick="toggleDiet()" style="cursor:pointer">Food Allergies</a>
+      </div>
+      <a href="/recipe_list" class="recipe-btn">My Recipes</a>
+      <a href="/edit_profile" class="edit-btn">Edit Profile</a>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="profile-card" hidden id = "diet">
+    <div class="card-header">
+      <h1>Allergies</h1>
+      <br>
+      <% for (var i =0; i <= allergy.length;  i++ ) { %>
+        <br/>  <%= allergy[i] %> 
+      <% } %>
+      <br>
+      <a class="recipe-btn" onclick="toggleDiet()" style="cursor:pointer">Back to Profile</a>
+    </div>
+  </div>
+
+</body>

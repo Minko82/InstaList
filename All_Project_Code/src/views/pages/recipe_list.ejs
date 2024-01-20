@@ -1,0 +1,62 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    
+    <title>Recipe List</title>
+    <link rel="icon" href="../../resources/img/tab_icon.png" > 
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/89f6976e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../resources/css/recipeList.css">
+    
+
+</head>
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover">
+  <%- include('../partials/nav_bar') %>
+</body>
+
+<br><br><br>
+<!-- HEADER -->
+
+<div class="card-body">
+    <div class="row">
+      <div class="column">
+        <table class="table">
+          <thead>
+            <tr>
+              <th style="width: 10%;"><i class="fa-solid fa-plus"></i></th>
+                <th style="width: 80%;" >RECIPES</th>
+                <th style="width: 10%;"><i class="fa-solid fa-trash-can"></i></th>
+            </tr>
+          </thead>
+          <tbody id="recipetable">
+
+            <% if (recipes) { %>
+            <% recipes.forEach(recipe => { %>
+            <tr id="reciperow">
+              <th></th>
+              <td id="editname">
+                  <form action="/recipeinfo" method="post">
+                      <input name="href" type="hidden" value="<%= recipe.recipelink %>">
+                      <button type="submit" class="button"><%= recipe.recipename %></button>
+                  </form>
+              </td>
+              <td>
+                <form action="/reciperemove" method="post">
+                  <input name="idref" type="hidden" value="<%= recipe.recipelink %>">
+                  <button id="removerecipe" type="submit" class="button"><i class="fa-solid fa-trash-can"></i></button>
+                </form>
+              </td>
+              </tr>
+              <% }) %>
+              <% } %>
+          <!-- </div> -->
+          </tbody>
+        </table>
+    </div>  
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../../resources/js/recipeList.js"></script>

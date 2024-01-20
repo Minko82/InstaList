@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #A6D2CA;
+    text-align: center;
+    font-size: 30px;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #85E8DE;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-weight: bold;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #B1FF2E;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  body{
+    background-image: url("../All_Project_Code/images/backg.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  a:link {
+    color: #2ecc71;
+  }
+  
+  a:visited {
+    color: #B1FF2E;
+  }
+  
+  a:hover {
+    color: #85E8DE;
+  }
+  
+  a:active {
+    color: #FF0000;
+  }
+
+  .glist {
+    object-position: 0% 0px;
+  }
+
+  .glist-header{ 
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e2ffff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+  /* CUSTOM CHECKBOX */
+
+input[type="checkbox"]{
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  /* margin: 0; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid #88bbaf;
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:6px;
+}
+
+input[type="checkbox"]:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  content: "\f00c";
+  display: none;
+}
+
+input[type="checkbox"]:hover{
+  background-color: #85e8de;
+}
+
+input[type="checkbox"]:checked{
+  background-color: #b1ff2e;
+}
+
+input[type="checkbox"]:checked:after{
+  display: block;
+}
+
+input[type="checkbox"]:focus{
+  outline:none;
+  box-shadow: none;
+}

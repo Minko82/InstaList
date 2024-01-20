@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+body {
+  font-family: 'Robot';
+}
+
+#card-container {
+  background-color: #e2ffff;
+  border: 4px solid #88bbaf;
+  box-shadow: 0px 0px 200px #999;
+  /* font-family: 'Oxygen', sans-serif; */
+  width: 65%;
+  height: 385px;
+  margin: 5% auto;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.imgDiv {
+  background-color: #e2ffff;
+  border: 4px solid #88bbaf;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#card-title {
+  background-color: #a6d2ca;
+  border: 4px solid #88bbaf;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#details {
+  background-color: #e2ffff;
+  border: 4px solid #88bbaf;
+  font-size: 16px;
+  padding: 15px 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.detail-value {
+  color: #455560;
+}
+
+#card-items {
+  background-color: #e2ffff;
+  border: 4px solid #88bbaf;
+  padding: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card-item-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+ul.checkmark li:before {
+    color: #757575;
+    content:"\2713\0020";
+    font-weight: 600;
+    margin-left: -38px;
+    margin-right: 10px;
+}
+
+.checkmark li {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+#method {
+  background-color: #e2ffff;
+  border: 4px solid #88bbaf;
+  padding: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#method li {
+  list-style-position: inside;
+  margin-bottom: 10px;
+  margin-left: -38px;
+  list-style-type: none;
+}
+
+
+ol {
+  counter-reset: item;
+}
+
+ol > li {
+  counter-increment: item;
+}
+
+ol > li::before {
+  font-weight: bold;
+  content: counter(item) ".";
+  margin-right: 8px;
+}
+
+/* CUSTOM BUTTON */
+
+.button{
+  background-color: #a6d2ca;
+  color: #fff;
+  border: 4px solid #88bbaf;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:focus{
+  outline: none;
+  box-shadow: none;
+}

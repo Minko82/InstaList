@@ -1,0 +1,122 @@
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link rel="icon" href="../../resources/img/tab_icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="../../resources/css/editProfile.css">
+    <script src="../../resources/js/Sign_Up.js"></script>
+    <script src="../../resources/js/profile_page.js"></script>
+
+    
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/89f6976e69.js" crossorigin="anonymous"></script>
+</head>
+<div>
+
+    <body style="background-image: url('../../resources/img/backg.png');background-size:cover">
+        <%- include('../partials/nav_bar') %>
+      
+        
+        <div class="container">
+            <form id="profile">
+                <div class="container" style="background:#A6D2CA; margin-top:20%">
+                    
+                    <div class="row">
+                        <div class="col-md-4 border-right">
+                            <div class = "center">
+                                <input id="pfp" type="hidden" name="pfp" placeholder="">
+                            <div a class="rounded-circle" type="button" onclick="openPicChoices()">
+                                <br>
+                                <div class="pic">
+                                <img id="currentPic" class="rounded-circle"  src="../../resources/img/pfp/<%- my_pfp %>"
+                                    width="90"></div>
+                                <br> &nbsp;&nbsp;&nbsp;
+                                
+                                <span class="font-weight-bold"><%- my_name %> </span>
+                            </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="p-3 py-5">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex flex-row align-items-center back"><i
+                                            class="fa fa-long-arrow-left mr-1 mb-1"></i>
+                                        <h6><a href="/profile">Back to home</a></h6>
+                                    </div>
+                                    <h6 class="text-right">Edit Profile</h6>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-md-6"><input type="text" class="form-control"
+                                            placeholder="User Name" value=""></div>
+                                    <div class="col-md-6"><input type="password" class="form-control" value=""
+                                            placeholder="Password"></div>
+                                </div>
+                                
+                                <input type="submit" name="" value="Save">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form id="pictures" class="box" action="Login" method="post" hidden
+                style="width:50%;margin-top:50px; margin-bottom:100px;">
+               
+                <div class="container">
+                    <h1>Choose a profile pic</h1>
+                    <div class="row">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <a class="button" onclick="pickPic(0)">
+                                <img id="kermit" src="../../resources/img/pfp/KermitPfp.png"
+                                    style="width: 80%;border:2px solid #85E8DE;margin:15px">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="button" onclick="pickPic(1)">
+                                <img id="mike" src="../../resources/img/pfp/MikePFP.png"
+                                    style="width:80%;border:2px solid #85E8DE;margin:15px">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="button" onclick="pickPic(2)">
+                                <img id="patrick" src="../../resources/img/pfp/PatrickPfp.png"
+                                    style="width:80%;border:2px solid #85E8DE;margin:15px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-4">
+                            <a class="button" onclick="pickPic(3)">
+                                <img id="sassyDog" src="../../resources/img/pfp/SassyDog.png"
+                                    style="width:80%;border:2px solid #85E8DE;margin:15px">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="button" onclick="pickPic(4)">
+                                <img id="sassyPat" src="../../resources/img/pfp/SassyPat.png"
+                                    style="width:80%;border:2px solid #85E8DE;margin:15px">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+</div>
+
+</body>

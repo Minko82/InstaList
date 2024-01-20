@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sign-Up</title>
+    <link rel="icon" href="../../resources/img/tab_icon.png">
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+    />
+    <script src="../../resources/js/Sign_Up.js"></script>
+    <link rel="stylesheet" href="../../resources/css/login.css">
+</head>
+
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover;background-attachment:fixed;overflow:scroll;overflow-x:hidden">
+    <div class="container">
+        <h1 style="margin: 18px;">
+        <div class="logo">
+        <img src="../../resources/img/Logo.png" alt="" width="150" height="72" class="center"></div>
+        </h1>
+        <form id="reg" class="box" action="sign_up" method="post" style="width: 360px;margin-top:150px;margin-bottom:100px">
+            <h1>Register</h1>
+            <input type="text" id= "name" name="name" placeholder="Username:" required="required">
+            <input id="psw" type="password" name="password" placeholder="Password:" required="required">
+            <input id="cpsw" type="password" name="" placeholder="CONFIRM PASSWORD:" required="required">
+            <input id="pfp" type="hidden" name="pfp" placeholder="">
+              <div style="border-top:2px solid #E2FFFF;justify-content:center;display:flex;">
+                <a type="button" onclick="openPicChoices()">
+                  <img id="currentPic" src="../../resources/img/pfp/KermitPfp.png" style="width:40%;border:2px solid #85E8DE;margin-top:15px;margin-bottom:5px;">
+                </a>
+              </div>
+              <input type="submit" name="" value="SIGN UP" onclick="chkPsw()">
+            <div class="text-center p-t-12">
+                <a class="txt2" href="/login_page">
+                    Already have an account? Login
+                </a>
+            </div>
+        </form>
+        <form id="pictures" class="box" action="Login" method="post" hidden style="width:500px;margin-top:50px; margin-bottom:100px;" >
+            <h1>Choose a profile pic</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <a class="button" onclick="pickPic(0)">
+                      <img id="kermit" src="../../resources/img/pfp/KermitPfp.png" style="width: 80%;border:2px solid #85E8DE;margin:15px">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="button" onclick="pickPic(1)">
+                      <img id="mike" src="../../resources/img/pfp/MikePFP.png" style="width:80%;border:2px solid #85E8DE;margin:15px">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="button" onclick="pickPic(2)">
+                      <img id="patrick" src="../../resources/img/pfp/PatrickPfp.png" style="width:80%;border:2px solid #85E8DE;margin:15px">
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2">
+                  </div>
+                  <div class="col-4">
+                    <a class="button" onclick="pickPic(3)">
+                      <img id="sassyDog" src="../../resources/img/pfp/SassyDog.png" style="width:80%;border:2px solid #85E8DE;margin:15px">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="button" onclick="pickPic(4)">
+                      <img id="sassyPat" src="../../resources/img/pfp/SassyPat.png" style="width:80%;border:2px solid #85E8DE;margin:15px">
+                    </a>
+                  </div>
+                  <div class="col-2">
+                  </div>
+                </div>
+              </div>
+        </form>
+    </div>
+</body>
+</html>

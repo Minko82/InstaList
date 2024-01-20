@@ -1,0 +1,40 @@
+<head>
+  <title>Contact Support</title>
+  <link rel="icon" href="../../resources/img/tab_icon.png" > 
+
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/89f6976e69.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../resources/css/HelpTab.css">
+  <link rel="stylesheet" href="../../resources/css/ContactSupport.css">
+  <link rel="stylesheet" href="../../resources/css/feedbackThx.css">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body class="center text-center" style="background-image: url('../../resources/img/backg.png');background-size:cover">
+  <%- include('../partials/nav_bar') %>
+
+  <br><br><br>
+
+  <div class="glist-header">
+    <h2>Contact Support</h2>
+  </div>
+
+  <div class="container">
+    <form class="box"action="/feedback" method="POST">
+      <input type="text" name="name" id="name" placeholder="Name:" required>
+      <input type="email" name="email" id="email" placeholder="Email:" required>
+      <textarea type="message" name="message" id="message" cols="30" rows="10" placeholder="Please let us know about any questions or concerns! We would love to hear your feedback!" required></textarea>
+       
+      <input type="submit" value="Send">
+    </form>
+  </div>
+
+</body>

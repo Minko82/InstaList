@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 39, 39);
+}
+
+/* FORM */
+     
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    padding: 60px;
+}
+        
+input {
+    height: 40px;
+}
+input[type=submit]{
+    margin: 10px auto;
+    width: 120px;   
+    cursor: pointer;
+
+    border-radius: 15px;
+    border: 2px solid #2ecc71;
+    background-color: #A6D2CA;
+    color: white;
+
+}
+
+input[type=submit]:hover{
+    background: #2ecc71;
+}
+
+/* Modified to accomodate to the design and size of Contact Support Page, as well as the new data type of textarea */
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;      
+}
+
+.box input[type = "text"],.box input[type = "email"],.box input[type = "message"], .box textarea[type = "message"]{
+    
+    display: block;
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    outline: none;
+    
+    font-size: 17px;
+    color: black; 
+
+    background-color: #E2FFFF;
+    border: 2px solid #85E8DE;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+.box input[type = "text"]:focus,.box input[type = "email"]:focus, .box textarea[type = "message"]:focus{
+    width: 580px;
+    border-color: #B1FF2E;
+    
+}
+/* END OF FORM */
+
+/* HEADER */
+ /* I modified it to have softer shadows */
+.glist-header{ 
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e2ffff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+/* END OF HEADER */
