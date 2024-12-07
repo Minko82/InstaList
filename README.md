@@ -6,10 +6,18 @@ InstaList is developed with the goal of aiding grocery store shoppers in their o
 
 ## Website Features:
 
-Users will be able to make an account with a valid email address and password,  with a selection from a variety of profile pictures. From there they can update any dietary restrictions, then the account is fully set up. With this account, users can browse from a catelog of 2 million recipes supplied from the Edamam API. Users can easily check out these recipes, and decide to add them to a personal recipe list that stores your favorite dishes. These recipes can then add all the ingredients to make it to your shopping list at the press of a button.
+- Create an account with a valid email address and password
+- Select your own profile picture from a variety of options
+- Update dietary restrictions in your profile
+- Browse from a catalog of over 2 million recipes,  supplied from the Edamam API
+- Choose any recipe to store in your recipe list, which will generate a comprehensive grocery list at the press of a button
 
 
 ## Application Architecture: 
+
+![map](https://github.com/user-attachments/assets/4d866e4c-36ad-48b1-a7c6-d5ba567eacdd)
+
+![map2](https://github.com/user-attachments/assets/72cd5c25-f224-4898-b52c-34d245a06c28)
 
  **Backend:**
   - SQL Database
@@ -23,3 +31,10 @@ Users will be able to make an account with a valid email address and password,  
   - Model is responsible for managing the application. It receives user input from the controller. This will be an incorporation of HTML and the databases, as the users will insert their data, which will be directly inserted into the correlating database.
   - View renders presentation of the model in a particular format. Specifically, we will use HTML to create an aesthetically pleasing visual for the UI.
   - Controller responds to the user input and performs interactions on the data model objects by validating them. This will specifically be associated with the database, as the different user inputs will trigger different corresponding values within the database
+
+
+## Technologies/Tools:
+
+![pic1](https://github.com/user-attachments/assets/8a8fcded-7ed9-4829-acd6-0e39acfc96cd)
+![pic2](https://github.com/user-attachments/assets/a2473c32-89b9-4ed3-8912-eb4d41b94a51)
+![pic3](https://github.com/user-attachments/assets/88da1daa-f6b9-4c31-8a72-dea110040a05)
