@@ -36,7 +36,17 @@ InstaList is developed with the goal of aiding grocery store shoppers in their o
 
 
 ## Technologies/Tools:
-
 ![pic1](https://github.com/user-attachments/assets/8a8fcded-7ed9-4829-acd6-0e39acfc96cd)
 ![pic2](https://github.com/user-attachments/assets/a2473c32-89b9-4ed3-8912-eb4d41b94a51)
 ![pic3](https://github.com/user-attachments/assets/88da1daa-f6b9-4c31-8a72-dea110040a05)
+- Visual Studio Code
+- PostgresSQL
+- MySQL
+- Notion
+- Docker
+- LocalHost
+- Illustrator
+- Photoshop
+- Lucid Charts
+- Edamam
+- Node.js
