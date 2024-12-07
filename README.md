@@ -3,6 +3,8 @@
 ## Project Description:
 
 InstaList is developed with the goal of aiding grocery store shoppers in their organization. Users are able to use our website to browse recipes which they can then directly add to their shopping list. Not only will the list of ingredients be added to the list, but they will be divided into sub-categories based around the most common grocery store organzation techniques. With this is mind, our users will see quicker trips to the grocery store as they will spend less time doubling back through aisles they have already been through. The year over year roadmap of InstaList will be published in early 2023 and we are excited about progressing this software in the future.
+![Home](https://github.com/user-attachments/assets/b48f054a-dcab-4c3f-9a25-d88517d39343)
+
 
 ## Website Features:
 
