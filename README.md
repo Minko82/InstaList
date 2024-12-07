@@ -5,6 +5,7 @@
 InstaList is developed with the goal of aiding grocery store shoppers in their organization. Users are able to use our website to browse recipes which they can then directly add to their shopping list. Not only will the list of ingredients be added to the list, but they will be divided into sub-categories based around the most common grocery store organzation techniques. With this is mind, our users will see quicker trips to the grocery store as they will spend less time doubling back through aisles they have already been through. The year over year roadmap of InstaList will be published in early 2023 and we are excited about progressing this software in the future.
 ![Home](https://github.com/user-attachments/assets/b48f054a-dcab-4c3f-9a25-d88517d39343)
 
+---
 
 ## Website Features:
 
@@ -14,6 +15,7 @@ InstaList is developed with the goal of aiding grocery store shoppers in their o
 - Browse from a catalog of over 2 million recipes,  supplied from the Edamam API
 - Choose any recipe to store in your recipe list, which will generate a comprehensive grocery list at the press of a button
 
+---
 
 ## Application Architecture: 
 
@@ -33,7 +35,7 @@ InstaList is developed with the goal of aiding grocery store shoppers in their o
   - Model is responsible for managing the application. It receives user input from the controller. This will be an incorporation of HTML and the databases, as the users will insert their data, which will be directly inserted into the correlating database.
   - View renders presentation of the model in a particular format. Specifically, we will use HTML to create an aesthetically pleasing visual for the UI.
   - Controller responds to the user input and performs interactions on the data model objects by validating them. This will specifically be associated with the database, as the different user inputs will trigger different corresponding values within the database
-
+---
 
 ## Technologies/Tools:
 - Visual Studio Code
