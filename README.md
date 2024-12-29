@@ -25,7 +25,7 @@ InstaList is designed to streamline the grocery shopping experience. By browsing
 
 ## 🛠️ **Application Architecture**
 
-InstaList is built using a robust **MVC architecture**, ensuring efficient data flow and a user-friendly experience.
+InstaList is built using **MVC architecture**.
 
 ### **Architecture Overview**
 
