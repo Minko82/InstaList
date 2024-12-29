@@ -1,55 +1,95 @@
-# InstaList
----
-## Project Description:
+# 🛒 **InstaList**
 
-InstaList is developed with the goal of aiding grocery store shoppers in their organization. Users are able to use our website to browse recipes which they can then directly add to their shopping list. Not only will the list of ingredients be added to the list, but they will be divided into sub-categories based around the most common grocery store organzation techniques. With this is mind, our users will see quicker trips to the grocery store as they will spend less time doubling back through aisles they have already been through. The year over year roadmap of InstaList will be published in early 2023 and we are excited about progressing this software in the future.
-![Home](https://github.com/user-attachments/assets/b48f054a-dcab-4c3f-9a25-d88517d39343)
+## 📄 **Project Description**
 
----
+InstaList is designed to streamline the grocery shopping experience. By browsing recipes on this platform, users can effortlessly create organized shopping lists tailored to common grocery store layouts. This eliminates the need to double back through aisles, saving time and making grocery trips more efficient!
 
-## Website Features:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b48f054a-dcab-4c3f-9a25-d88517d39343" alt="Home page">
+</p>
 
-- Create an account with a valid email address and password
-- Select your own profile picture from a variety of options
-- Update dietary restrictions in your profile
-- Browse from a catalog of over 2 million recipes,  supplied from the Edamam API
-- Choose any recipe to store in your recipe list, which will generate a comprehensive grocery list at the press of a button
-
+<br>
+ 
 ---
 
-## Application Architecture: 
+## 🌟 **Key Features**
 
-![map](https://github.com/user-attachments/assets/4d866e4c-36ad-48b1-a7c6-d5ba567eacdd)
-
-![map2](https://github.com/user-attachments/assets/72cd5c25-f224-4898-b52c-34d245a06c28)
-
- **Backend:**
-  - SQL Database
-  - Edamam.com API
+- **Account Management**: Create an account with a valid email and password.
+- **Personalization**: Choose a profile picture and set dietary preferences.
+- **Recipe Catalog**: Browse over 2 million recipes via the **Edamam API**.
+- **Grocery List Generation**: Select recipes to generate a categorized grocery list at the click of a button.
   
- **Front-End:**
-  - HTML, CSS and JS for user input and UI design
-  - MVC (to to divide the information and create functions that allow for more accurate relationships to the databases)
-    
-**Communication:**
-  - Model is responsible for managing the application. It receives user input from the controller. This will be an incorporation of HTML and the databases, as the users will insert their data, which will be directly inserted into the correlating database.
-  - View renders presentation of the model in a particular format. Specifically, we will use HTML to create an aesthetically pleasing visual for the UI.
-  - Controller responds to the user input and performs interactions on the data model objects by validating them. This will specifically be associated with the database, as the different user inputs will trigger different corresponding values within the database
+<br>
+ 
 ---
 
-## Technologies/Tools:
-- Visual Studio Code
-- PostgresSQL
-- MySQL
-- Notion
-- Docker
-- LocalHost
-- Illustrator
-- Photoshop
-- Lucid Charts
-- Edamam
-- Node.js
-![pic1](https://github.com/user-attachments/assets/8a8fcded-7ed9-4829-acd6-0e39acfc96cd)
-![pic2](https://github.com/user-attachments/assets/a2473c32-89b9-4ed3-8912-eb4d41b94a51)
-![pic3](https://github.com/user-attachments/assets/88da1daa-f6b9-4c31-8a72-dea110040a05)
+## 🛠️ **Application Architecture**
 
+InstaList is built using a robust **MVC architecture**, ensuring efficient data flow and a user-friendly experience.
+
+### **Architecture Overview**
+
+- **Model**: Manages data and interacts with the SQL database.
+- **View**: Renders data visually using HTML and CSS for a clean, intuitive UI.
+- **Controller**: Handles user input, validates data, and updates the model accordingly.
+
+### **Backend Components**
+- SQL Database
+- Integration with the **Edamam API**
+
+### **Frontend Components**
+- HTML, CSS, and JavaScript for responsive user interaction
+- MVC pattern for modular and scalable development
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d866e4c-36ad-48b1-a7c6-d5ba567eacdd" alt="Architecture Map 1" width="450">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/72cd5c25-f224-4898-b52c-34d245a06c28" alt="Architecture Map 2" width="450">
+</p>
+
+<br>
+ 
+---
+
+## 💻 **Technologies and Tools**
+
+### **Development Tools**
+- **Visual Studio Code**
+- **Docker**
+- **Node.js**
+
+### **Database Management**
+- **PostgreSQL**
+- **MySQL**
+
+### **Design and Documentation**
+- **Illustrator** and **Photoshop** (for UI/UX design)
+- **Lucidcharts** (for system modeling)
+- **Notion** (for project management)
+
+### **APIs and Hosting**
+- **Edamam API** (recipe data)
+- **LocalHost**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8a8fcded-7ed9-4829-acd6-0e39acfc96cd" alt="Tool Example 1" width="600" height="250">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2473c32-89b9-4ed3-8912-eb4d41b94a51" alt="Tool Example 2" width="600" height="250">
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88da1daa-f6b9-4c31-8a72-dea110040a05" alt="Tool Example 3" width="600" height="250">
+</p>
+
+<br>
+ 
+---
+
+## 🚀 **Future Roadmap**
+
+- **Enhanced Recipe Filtering**: Include filters for cuisine types, preparation times, and dietary restrictions.
+- **Mobile Optimization**: A mobile app for on-the-go shopping.
+- **Collaboration**: Shared shopping lists for families and groups.
+
+---
