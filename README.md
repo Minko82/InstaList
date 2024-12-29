@@ -1,6 +1,6 @@
 # 🛒 **InstaList**
 
-## 📄 **Project Description**
+## 📝 **Description**
 
 InstaList is designed to streamline the grocery shopping experience. By browsing recipes on this platform, users can effortlessly create organized shopping lists tailored to common grocery store layouts. This eliminates the need to double back through aisles, saving time and making grocery trips more efficient!
 
@@ -12,7 +12,7 @@ InstaList is designed to streamline the grocery shopping experience. By browsing
  
 ---
 
-## 🌟 **Key Features**
+## 🌟 **Features**
 
 - **Account Management**: Create an account with a valid email and password.
 - **Personalization**: Choose a profile picture and set dietary preferences.
@@ -84,12 +84,4 @@ InstaList is built using a robust **MVC architecture**, ensuring efficient data 
 
 <br>
  
----
-
-## 🚀 **Future Roadmap**
-
-- **Enhanced Recipe Filtering**: Include filters for cuisine types, preparation times, and dietary restrictions.
-- **Mobile Optimization**: A mobile app for on-the-go shopping.
-- **Collaboration**: Shared shopping lists for families and groups.
-
 ---
