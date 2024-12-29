@@ -1,6 +1,6 @@
 # 🛒 **InstaList**
 
-## 📝 **Description**
+## 📝 **Project Description**
 
 InstaList is designed to streamline the grocery shopping experience. By browsing recipes on this platform, users can effortlessly create organized shopping lists tailored to common grocery store layouts. This eliminates the need to double back through aisles, saving time and making grocery trips more efficient!
 
